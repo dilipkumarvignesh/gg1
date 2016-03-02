@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :microposts
+  resources :users
   get 'users/new'
 
   root  'static_pages#home'
