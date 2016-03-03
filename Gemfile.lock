@@ -60,6 +60,7 @@ GEM
     erubis (2.7.0)
     execjs (2.6.0)
     ffi (1.9.10)
+    gioco (1.1.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     hike (1.2.3)
@@ -174,6 +175,7 @@ DEPENDENCIES
   bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
   coffee-rails (= 4.0.1)
+  gioco
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
   pg (~> 0.18.4)
