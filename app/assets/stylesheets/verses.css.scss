@@ -1,3 +1,229 @@
 // Place all the styles related to the verses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@namespace h "http://www.w3.org/1999/xhtml";
+.After-Verse {
+    display: block;
+    font-size: 1.14286em;
+    line-height: 1.2;
+    margin-bottom: 0.0618056in;
+    margin-top: 0.0618056in;
+    text-align: justify
+    }
+.Author {
+    display: block;
+    font-size: 1.14286em;
+    line-height: 1.2;
+    margin-top: 0.25in;
+    text-align: center
+    }
+.Book {
+    color: rgb(128, 0, 0);
+    display: block;
+    font-size: 0.85714em;
+    text-align: right;
+    visibility: hidden
+    }
+.Center {
+    display: block;
+    font-size: 1.14286em;
+    line-height: 1.2;
+    margin-bottom: 0.125in;
+    margin-top: 0.125in;
+    text-align: center
+    }
+.Chapter {
+    color: rgb(0, 64, 128);
+    display: block;
+    font-size: 0.85714em;
+    text-align: right;
+    visibility: hidden
+    }
+.Chapter-Desc {
+    background-color: rgb(0, 128, 128);
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 1.42857em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.375in;
+    margin-top: 0.375in;
+    text-align: center
+    }
+.Italic {
+	color: rgb(128, 0, 0);
+	font-weight: bold;
+    font-style: italic;
+    }
+.List {
+    display: block;
+    font-size: 1.14286em;
+    line-height: 1.2;
+    margin-left: 0.5in;
+    margin-top: 0.125in
+    }
+.Normal-Level {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.2;
+    margin-bottom: 0.0597222in;
+    text-align: justify;
+    text-indent: 0.25in
+    }
+.Right {
+    display: block;
+    font-size: 1.14286em;
+    line-height: 1.2;
+    margin-bottom: 0.125in;
+    margin-top: 0.125in;
+    text-align: right
+    }
+.Sincerely {
+    color: rgb(64, 128, 128);
+    display: block;
+    font-size: 1.14286em;
+    line-height: 1.2;
+    margin-left: 0.25in
+    }
+.Subtitle {
+    display: block;
+    font-size: 1.14286em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.125in;
+    margin-top: 0.125in;
+    text-align: center
+    }
+.Synonyms {
+    color: rgb(0, 0, 128);
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.2;
+    margin-bottom: 0.125in;
+    text-align: justify
+    }
+.Synonyms-SA {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.2;
+    margin-top: 0.125in
+    }
+.Synonyms-Section {
+    color: rgb(0, 128, 0);
+    display: block;
+    font-size: 0.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.125in;
+    margin-top: 0.25in;
+    text-align: center
+    }
+.Textnum {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 128, 0);
+    display: block;
+    font-size: 0.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center
+    }
+.Thus-end {
+    display: block;
+    font-size: 1.14286em;
+    font-style: italic;
+    line-height: 1.2;
+    margin-top: 0.25in
+    }
+.Translation {
+    color: rgb(128, 0, 0);
+    display: block;
+    font-size: 0.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.025in;
+    margin-top: 0.025in;
+    text-indent: 0.25in
+    }
+.Uvaca-line {
+    display: block;
+    font-size: 0.5em;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center
+    }
+.Verse-Number-Heading {
+    color: rgb(0, 128, 0);
+    display: block;
+    font-size: 0.85714em;
+    margin-top: 0.125in;
+    text-align: right;
+    visibility: hidden
+    }
+.Verse-Text {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 0.5em;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center
+    }
+.Verse-in-purp {
+    display: block;
+    font-size: 0.5em;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 0.125in;
+    margin-top: 0.125in;
+    text-align: center
+    }
+.calibre {
+    display: block;
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0
+    }
+.calibre1 {
+    font-weight: bolder
+    }
+.calibre2 {
+    display: block
+    }
+.calibre3 {
+    font-weight: bolder;
+    line-height: 1.2
+    }
+.calibre4 {
+    display: block;
+    line-height: 1.2
+    }
+.calibre5 {
+    display: block;
+    margin-top: 0.125in
+    }
+.calibre6 {
+    font-style: italic;
+    line-height: 1.2
+    }
+.calibre7 {
+    line-height: 1.2
+    }
+.quoted-para {
+    display: block;
+    margin-bottom: 0.125in;
+    margin-left: 0.25in;
+    margin-right: 0.25in;
+    margin-top: 0.125in;
+    text-align: justify
+    }
+
+    .bg_verse
+    {
+    margin-left:auto;
+    margin-right:auto;
+    text:center;
+    }

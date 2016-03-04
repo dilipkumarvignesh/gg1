@@ -3,17 +3,21 @@
   <aside class="span4">
     <section>
       <h1>
-       <div class="bg_verse">
-        <%= @verse.docid %>
-        <%= raw(@verse.c2ptext) %>
-        
-		<ul class="pager">
-  <li class="previous"><a href="#">Previous</a></li>
-  <li class="next"><a href="#">Next</a></li>
-</ul>
+       
+       
+	
 </div>
 
       </h1>
+       <div>
+        <div class="bg_verse">
+        
+        <%= raw(@verse.c2ptext) %>
+        </div>
+          <ul class="pager">
+  <li class="previous"><a href="#">Previous</a></li>
+  <li class="next"><a href="#">Next</a></li>
+</ul>
     </section>
   </aside>
 </div>
