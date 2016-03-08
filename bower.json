@@ -1,0 +1,22 @@
+{
+  "name": "dep",
+  "homepage": "https://github.com/dilipkumarvignesh/gg1",
+  "authors": [
+    "Dilip <dilipkumarvignesh@gmail.com>"
+  ],
+  "description": "angular dependencies",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],"dependencies": {
+    "angular": "~1.2.16"
+  }
+}

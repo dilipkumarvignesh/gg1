@@ -36,3 +36,5 @@ end
 #     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 #   end
 # end
+
+config.assets.paths << Rails.root.join('vendor', 'assets', 'components')

@@ -1,3 +1,4 @@
+
 class SessionsController < ApplicationController
 def new
 	render 'new'
@@ -19,6 +20,7 @@ def new
   def destroy
   end
   def destroy
+  
     sign_out
     redirect_to root_url
   end

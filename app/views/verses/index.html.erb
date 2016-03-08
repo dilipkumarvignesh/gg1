@@ -1,0 +1,15 @@
+<% provide(:title, 'All users') %>
+<h1>Gita Verses</h1>
+
+
+<%= will_paginate %>
+<ul >
+  <% @verses.each do |verse| %>
+     <div class="bg_verse">
+        
+        <%= raw(verse.c2ptext) %>
+        </div>
+  <% end %>
+</ul>
+
+  <%= will_paginate %>
