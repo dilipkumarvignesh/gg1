@@ -1,4 +1,32 @@
 <% provide(:title, @user.name) %>
+<style>
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+</style>
+<body>
+  
 <div class="row">
   <aside class="span4">
     <section>
@@ -7,5 +35,13 @@
         <%= @user.name %>
       </h1>
     </section>
+    <section>
+      <table class="table table-hover">
+      <% @chapters.each do |chapter| %>
+         <tr> <td><%= chapter.chapter_name %> </td><td><span>0/</span><%= chapter.no_of_verses %></td></tr>
+      <% end %>
+      </table>
+     </section>
   </aside>
 </div>
+</body>

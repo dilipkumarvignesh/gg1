@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160304073240) do
+ActiveRecord::Schema.define(version: 20160310132138) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,6 +35,12 @@ ActiveRecord::Schema.define(version: 20160304073240) do
   add_index "badges_sashes", ["badge_id", "sash_id"], name: "index_badges_sashes_on_badge_id_and_sash_id", using: :btree
   add_index "badges_sashes", ["badge_id"], name: "index_badges_sashes_on_badge_id", using: :btree
   add_index "badges_sashes", ["sash_id"], name: "index_badges_sashes_on_sash_id", using: :btree
+
+  create_table "chapters", force: :cascade do |t|
+    t.integer "chapter_no"
+    t.string  "chapter_name"
+    t.integer "no_of_verses"
+  end
 
   create_table "gamification_goals", force: :cascade do |t|
     t.integer  "rewarding_id"

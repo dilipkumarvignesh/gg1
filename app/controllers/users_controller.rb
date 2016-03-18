@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   end
   def show
     @user = User.find(params[:id])
+    @chapters = Chapter.all().order(:id)
   end
   def index
     @users = User.paginate(page: params[:page])

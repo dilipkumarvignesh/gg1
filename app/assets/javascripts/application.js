@@ -11,10 +11,10 @@
 // about supported directives.
 //
 
-
+//= require angular/angular
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
 //= require turbolinks
-//= require_tree .
-//= require angular/angular
+//= require_tree 
+//= require d3
