@@ -14,7 +14,8 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
 end
-
+gem 'responders'
+gem 'angular-rails-templates'
 gem 'sass-rails', '4.0.3'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
@@ -30,6 +31,9 @@ gem 'gamification', '~> 1.0', '>= 1.0.2'
 gem 'faker','1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
+gem 'devise', '>=3.4.0'
+gem 'omniauth'
+gem 'omniauth-facebook'
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
